@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ExperimentWithControls"
         mc:Ignorable="d"
         Title="Experiment With Controls" Height="450" Width="800">
-    <Grid x:Name=" ">
+    <Grid x:Name="number">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
@@ -16,6 +16,8 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height=".5*"/>
         </Grid.RowDefinitions>
+        <Label Content="Enter a number" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="#" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="24"/>
 
 
     </Grid>
