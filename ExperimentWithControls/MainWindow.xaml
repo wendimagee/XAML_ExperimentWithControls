@@ -35,10 +35,10 @@
         </ListBox>
         <ComboBox x:Name="readOnlyComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" SelectionChanged="readOnlyComboBox_SelectionChanged">
             <ListBoxItem Content="1"/>
+            <ListBoxItem Content="2"/>
             <ListBoxItem Content="3"/>
             <ListBoxItem Content="4"/>
             <ListBoxItem Content="5"/>
-            <ListBoxItem Content="2"/>
         </ComboBox>
         <ComboBox x:Name="editableComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="270,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" IsEditable="True" PreviewTextInput="numberTextBox_PreviewTextInput" TextBoxBase.TextChanged="editableComboBox_TextChanged">
             <ListBoxItem Content="1"/>
